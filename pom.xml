@@ -35,8 +35,6 @@
 			<dependency>
 				<groupId>org.apache.camel.springboot</groupId>
 				<artifactId>camel-spring-boot-dependencies</artifactId>
-<!--				<version>${project.version}</version>-->
-<!--				<version>4.0.0</version>-->
 				<version>${camel.version}</version>
 				<type>pom</type>
 				<scope>import</scope>
@@ -58,7 +56,6 @@
 		<dependency>
 			<groupId>org.apache.camel.springboot</groupId>
 			<artifactId>camel-spring-boot-starter</artifactId>
-<!--			<version>4.0.0</version>-->
 		</dependency>
 		<dependency>
 			<groupId>org.apache.camel.springboot</groupId>
