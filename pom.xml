@@ -15,8 +15,10 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>1.8</java.version>
-		<spring-boot-version>2.2.7.RELEASE</spring-boot-version>
+<!--		<spring-boot-version>2.2.7.RELEASE</spring-boot-version>-->
+		<spring-boot-version>2.3.3.RELEASE</spring-boot-version>
 		<run.profiles>dev</run.profiles>
+		<camel.version>3.9.0</camel.version>
 	</properties>
 
 	<dependencyManagement>
@@ -34,7 +36,8 @@
 				<groupId>org.apache.camel.springboot</groupId>
 				<artifactId>camel-spring-boot-dependencies</artifactId>
 <!--				<version>${project.version}</version>-->
-				<version>4.0.0</version>
+<!--				<version>4.0.0</version>-->
+				<version>${camel.version}</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
